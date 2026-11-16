@@ -38,8 +38,13 @@ A premium, minimal, single-page scrollytelling website for **NOCTIS**, a fiction
 
 ---
 
-## Local Development
+## URLs & Development
 
+### Live Demo (GitHub Pages)
+- **Live URL**: [https://ai-dev-leela.github.io/car-website/](https://ai-dev-leela.github.io/car-website/)
+*(To activate: Repository **Settings** → **Pages** → Source: **Deploy from a branch** → Branch: **main** / `root` → **Save**)*
+
+### Local Development
 Run with any local HTTP static server:
 
 ```bash
@@ -50,4 +55,6 @@ python -m http.server 8000
 npx serve .
 ```
 
-Then visit [http://localhost:8000](http://localhost:8000) in your browser.
+Then visit in your browser:
+- **Primary Local URL**: [http://localhost:8000](http://localhost:8000)
+- **Alternative Local URL**: [http://127.0.0.1:8000](http://127.0.0.1:8000)
